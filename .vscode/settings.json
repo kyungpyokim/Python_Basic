@@ -6,5 +6,12 @@
             "source.organizeImports.ruff": "always"
         },
         "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "[jupyter]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "always",
+            "source.organizeImports.ruff": "always"
+        }
     }
 }
